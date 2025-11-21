@@ -26,8 +26,10 @@ def calculate_average_score():
         print(f"平均分數為：{average_score:.2f}")
     else:
         print("沒有輸入任何分數。")
+
 if __name__ == "__main__":
     calculate_average_score()
+
 # GitHub 版本管理註解範例：
 # v1.0 - 初始版本，實現基本的分數計算功能。
 # v1.1 - 加入錯誤處理，提示非數字輸入。
