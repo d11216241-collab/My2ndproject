@@ -21,11 +21,11 @@ def guess_number_game():
                 continue
             
             if guess < number_to_guess:
-                print("太低了！再試一次。")
+                print("小了")
             elif guess > number_to_guess:
-                print("太高了！再試一次。")
+                print("大了")
             else:
-                print(f"恭喜你！你猜對了，數字就是 {number_to_guess}。你總共猜了 {attempts} 次。")
+                print(f"恭喜通過！你總共猜了 {attempts} 次。")
                 break
         except ValueError:
             print("無效的輸入，請輸入一個數字。")
